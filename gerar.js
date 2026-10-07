@@ -27,7 +27,7 @@ var TEMA              = 'claro';           // 'claro' (cinza) ou 'escuro' (navy)
 // A pagina do GitHub Pages e publica. Com false, os titulos dos cards viram
 // "Card #123" e nada confidencial sai do Trello. Barras, prazos, responsaveis
 // e contagens continuam iguais.
-var MOSTRAR_TITULOS   = true;
+var MOSTRAR_TITULOS   = false;
 
 // ---------------------------------------------------------------------------
 // Daqui para baixo nao precisa mexer.
