@@ -1,8 +1,12 @@
 name: Atualizar o Gantt
 
 on:
+  # De 30 em 30 minutos, dias uteis, das 8h as 18h de Brasilia (11h-21h UTC).
+  # Minutos quebrados de proposito: na virada da hora a fila do GitHub e maior
+  # e o agendamento costuma atrasar.
   schedule:
-    - cron: '0 11 * * 1-5'
+    - cron: '7,37 11-21 * * 1-5'
+  # Botao "Run workflow" na aba Actions, para atualizar na hora.
   workflow_dispatch:
 
 permissions:
